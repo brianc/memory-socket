@@ -1,0 +1,16 @@
+{
+  "author": "Brian M. Carlson <brian@enginode.com> (http://brianc.me)",
+  "name": "memory-socket",
+  "description": "An in-memory implementation of net.Socket for use in testing",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brianc/memory-socket.git"
+  },
+  "main": "lib/",
+  "engines": {
+    "node": "~0.6.3"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
