@@ -22,4 +22,14 @@ describe('MemorySocket', function() {
       })
     })
   })
+
+  describe('socket api', function() {
+    var socket = new MemorySocket();
+    it('has setEncoding', function() {
+      socket.setEncoding('utf8');
+      socket.encoding.should.equal('utf8');
+      socket.setEncoding('ascii');
+      socket.encoding.should.equal('ascii');
+    })
+  })
 })
