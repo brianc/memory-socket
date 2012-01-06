@@ -2,7 +2,7 @@
   "author": "Brian M. Carlson <brian@enginode.com> (http://brianc.me)",
   "name": "memory-socket",
   "description": "An in-memory implementation of net.Socket for use in testing",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/brianc/memory-socket.git"
